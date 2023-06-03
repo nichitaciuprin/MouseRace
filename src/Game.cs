@@ -1,6 +1,6 @@
 public class Game
 {
-    public GameState gameState { get; private set; }
+public GameState gameState { get; private set; }
     public float score { get; private set; }
     public Element[] elements { get; private set; }
     public readonly Rect bound;
